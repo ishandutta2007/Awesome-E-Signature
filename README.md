@@ -1,209 +1,120 @@
-# Awesome-E-Signature
-
-## Top E-Signature Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Digital Document Signing, Workflow Routing, Templates, Audit Trails & Legally Binding Electronic Signatures*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **E-Signature** (electronic signature). These systems let individuals and organizations prepare, send, sign, and store documents digitally with audit trails, templates, multi-signer workflows, and compliance support.
-
-
-
-**Examples** include DocuSign, Dropbox Sign, PandaDoc, SignNow, Adobe Acrobat Sign, Zoho Sign, SignEasy, OneSpan Sign, Sertifi, and Yousign (the category leaders).
-
-
-
-**Open-source emphasis**: The e-signature space has strong, actively developed open alternatives. **Documenso**, **DocuSeal**, **OpenSign**, and **LibreSign** provide self-hostable signing platforms that many teams use as DocuSign alternatives. This section expands those projects and related open tooling.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[DocuSign](https://www.docusign.com/)**  
-
-  Industry-standard e-signature and intelligent agreement management platform with broad integrations, compliance coverage, templates, and advanced routing.
-
-
-
-- **[Dropbox Sign](https://www.dropbox.com/sign)**  
-
-  Simple, user-friendly e-signature solution (formerly HelloSign) focused on clean signing workflows and Dropbox ecosystem integration.
-
-
-
-- **[PandaDoc](https://www.pandadoc.com/)**  
-
-  Document automation and e-signature platform popular with sales teams—combines proposals, contracts, and signing in one workflow.
-
-
-
-- **[SignNow](https://www.signnow.com/)**  
-
-  Affordable e-signature platform for small and mid-sized businesses with templates, team workflows, and strong value pricing.
-
-
-
-- **[Adobe Acrobat Sign](https://www.adobe.com/)**  
-
-  E-signature solution tightly integrated with Adobe PDF tools and the broader Adobe ecosystem for document preparation and signing.
-
-
-
-- **[Zoho Sign](https://www.zoho.com/sign/)**  
-
-  Cost-effective e-signature product within the Zoho suite, suitable for teams already using Zoho applications.
-
-
-
-- **[SignEasy](https://signeasy.com/)**  
-
-  Mobile-friendly e-signature app and platform focused on fast signing on any device.
-
-
-
-- **[OneSpan Sign](https://www.onespan.com/)**  
-
-  Enterprise-oriented e-signature and digital agreement platform with strong security and compliance features.
-
-
-
-- **[Sertifi](https://www.sertifi.com/)**  
-
-  Agreement and payment platform often used in hospitality and travel for signed authorizations and related workflows.
-
-
-
-- **[Yousign and additional regional platforms](https://yousign.com/)**  
-
-  European e-signature solution and other regional providers offering compliant digital signing for local markets.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Documenso](https://github.com/documenso/documenso)**  
-
-  Leading open-source DocuSign alternative (AGPL)—modern TypeScript/Next.js platform for self-hosted, compliant document signing with templates, multi-signer flows, and audit trails.
-
-
-
-- **[DocuSeal](https://github.com/docusealco/docuseal)**  
-
-  Popular open-source e-signature platform (AGPL) with a polished form builder, self-hosting support, and a large community; strong option for embedding and API use.
-
-
-
-- **[OpenSign](https://github.com/OpenSignLabs/OpenSign)**  
-
-  Free and open-source DocuSign alternative focused on secure PDF e-signing, multi-signer support, sequential signing, and self-hosting.
-
-
-
-- **[LibreSign](https://github.com/LibreSign/libresign)**  
-
-  Open-source digital signature solution designed as a Nextcloud app—ideal when documents already live in a Nextcloud environment.
-
-
-
-- **[PDF signing and PAdES open libraries](https://github.com/)**  
-
-  Open libraries and tools for applying digital signatures to PDFs in compliance with common standards (PAdES and related).
-
-
-
-- **[Certificate and PKI open tooling](https://github.com/)**  
-
-  Open components for certificate management and cryptographic signing that underpin many self-hosted e-signature stacks.
-
-
-
-- **[Document workflow open engines](https://github.com/)**  
-
-  Community projects for routing, approval, and multi-party document workflows that can be paired with signing.
-
-
-
-- **[Template and form open builders](https://github.com/)**  
-
-  Open form and template systems used to prepare documents before signature collection.
-
-
-
-- **[Audit-trail and evidence open helpers](https://github.com/)**  
-
-  Simple open mechanisms for logging who signed what, when, and from where.
-
-
-
-- **[Documentation and self-hosted e-sign open playbooks](https://github.com/)**  
-
-  Guides for deploying and operating Documenso, DocuSeal, OpenSign, or LibreSign in production.
-
-
-
-### Additional Strong Open-Source Options
-
-- Self-hosting **Documenso** or **DocuSeal** for full control over documents, signatures, and data residency.
-
-- Using **OpenSign** for a feature-rich free alternative or **LibreSign** inside an existing Nextcloud deployment.
-
-- Accepting that global compliance certifications, extensive pre-built integrations (Salesforce, Microsoft, etc.), advanced identity verification, and large-scale enterprise support still favor commercial platforms (DocuSign, Adobe Acrobat Sign, Dropbox Sign, PandaDoc, etc.).
-
-- Focusing open-source efforts on data ownership, transparency, and lower cost for privacy-conscious or regulated teams.
-
-
-
-**Frameworks for building custom systems**: Deploy Documenso / DocuSeal / OpenSign → configure templates and signer roles → send documents via email or embedded links → collect legally binding signatures with audit trails → store completed PDFs and evidence. Suitable for startups, internal tools, and organizations that prioritize self-hosting. Many enterprises still choose commercial e-signature platforms for compliance breadth and ecosystem integrations.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Electronic signatures are subject to jurisdiction-specific laws (e.g., eIDAS, ESIGN Act). Open-source tools must be configured and validated for the legal and compliance requirements of your use case. This list is not legal advice.
-
-
+# Awesome E-Signature ✒️
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome E-Signature Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-E-Signature/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-E-Signature?style=flat" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-E-Signature/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-E-Signature?style=flat" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-E-Signature/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> A curated directory of **E-Signature (Electronic Signature) SaaS Platforms**, **Self-Hosted Open-Source Projects**, **PDF Digital Signature Libraries**, and **PKI Compliance Tooling** for modern legal, operations, and engineering teams.
 
 ---
 
-**Made for legal, operations, and product teams who care about open, auditable signing.**
+## 📑 Table of Contents
 
-Let's keep agreements digital, trustworthy, and as open as practical.
+- [🌐 Overview \& Market Dynamics](#-overview--market-dynamics)
+- [🏢 SaaS / Commercial E-Signature Platforms](#-saas--commercial-e-signature-platforms)
+- [🔓 Open-Source E-Signature Projects \& Libraries](#-open-source-e-signature-projects--libraries)
+- [⚖️ Key Features \& Legal Compliance Framework](#️-key-features--legal-compliance-framework)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support \& Sponsor](#-support--sponsor)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🌐 Overview & Market Dynamics
+
+Electronic signature solutions streamline document signing, multi-party workflow routing, digital certificate validation, audit trails, and contract automation. Whether you are searching for enterprise-grade SaaS platforms like DocuSign and Adobe Acrobat Sign or self-hostable open-source alternatives like DocuSeal and Documenso, this list covers the top solutions available.
+
+---
+
+## 🏢 SaaS / Commercial E-Signature Platforms
+
+📊 **Market Insights**: The global electronic signature market is estimated at **~$7.5 Billion to $10 Billion** and is projected to surpass **$35 Billion by 2030** (CAGR ~30%). The sector is **moderately concentrated**, dominated by industry leaders **DocuSign** and **Adobe Acrobat Sign** (holding >60% combined market share), alongside a growing tier of specialized commercial platforms and self-hosted open-source alternatives.
+
+| SaaS Platform | Estimated Company Size / Valuation | Starting Price | Free Tier / Free Trial Limits | Key Highlights & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Acrobat Sign](https://www.adobe.com/)** | ~$200B+ Market Cap ($19.4B Revenue) | $12.99/user/month *(Acrobat Standard)* | 14-day free trial *(Max 2 signature requests during trial)* | Industry standard tight integration with Adobe Acrobat PDF ecosystem & enterprise compliance |
+| **[DocuSign](https://www.docusign.com/)** | ~$12B Market Cap ($2.8B Revenue) | $10.00/user/month *(Personal Plan)* | 30-day free trial *(Max 5 document envelope sends during trial)* | Global market leader with extensive integrations, automated workflows & CLM tools |
+| **[Dropbox Sign](https://www.dropbox.com/sign)** *(formerly HelloSign)* | ~$8.5B Market Cap ($2.5B Revenue) | $15.00/user/month *(Essential Plan)* | **Free Forever Plan**: 3 signature requests/month; 30-day trial for paid plans | Clean user experience, developer-friendly API, and seamless Dropbox & Google Drive integrations |
+| **[Zoho Sign](https://www.zoho.com/sign/)** | ~$1B+ ARR *(Privately held, $10B+ val.)* | $10.00/user/month *(Standard Plan)* | **Free Forever Plan**: 5 documents/month for 1 user; 14-day Enterprise trial | Extremely cost-effective solution deeply integrated into the Zoho ecosystem |
+| **[PandaDoc](https://www.pandadoc.com/)** | ~$1B+ Valuation *($100M+ ARR)* | $19.00/user/month *(Essentials Plan)* | 14-day free trial *(Unlimited document sends during trial)* | End-to-end proposal creation, document automation, CPQ, and sales e-signing |
+| **[SignNow](https://www.signnow.com/)** *(airSlate)* | ~$1B+ Valuation *($100M+ ARR)* | $8.00/user/month *(Business Plan)* | 7-day free trial *(Max 5 document signature requests)* | Affordable business e-signing with team workflows, custom branding, and mobile apps |
+| **[OneSpan Sign](https://www.onespan.com/)** | ~$800M Market Cap *($250M ARR)* | $20.00/user/month *(Professional Plan)* | 30-day developer sandbox / trial *(Max 10 test document sends)* | High-security enterprise e-signature platform with advanced identity verification |
+| **[Sertifi](https://www.sertifi.com/)** | ~$30M ARR *($100M+ PE Backed)* | $150.00/month *(Team Plan starting tier)* | 14-day free trial upon demo request | Specialized agreement and payment authorization workflows for hospitality & travel |
+| **[SignEasy](https://signeasy.com/)** | ~$20M ARR | $10.00/user/month *(Essential Plan)* | 14-day free trial *(Max 3 document sends during trial)* | Mobile-first signing app designed for seamless performance on iOS, iPadOS, and Android |
+| **[Yousign](https://yousign.com/)** | ~$15M ARR *(€50M+ Total Funding)* | €9.00/user/month *(One Plan)* | 14-day free trial *(Max 10 signature requests)* | European market leader offering full eIDAS legal compliance and EU data sovereignty |
+
+---
+
+## 🔓 Open-Source E-Signature Projects & Libraries
+
+These open-source repositories allow teams to self-host e-signature platforms, embed signature widgets, or programmatically apply PAdES-compliant digital signatures to PDF documents.
+
+| Project Name | GitHub Stars | License | Description & Primary Use Case |
+| :--- | :---: | :---: | :--- |
+| **[DocuSeal](https://github.com/docusealco/docuseal)** | [![GitHub stars](https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white)](https://github.com/docusealco/docuseal/stargazers) | AGPL-3.0 | Modern, self-hostable e-signature platform with visual form builder, API, and webhooks. |
+| **[Documenso](https://github.com/documenso/documenso)** | [![GitHub stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | AGPL-3.0 | Leading open-source DocuSign alternative built with Next.js, TypeScript, and Prisma. |
+| **[Signature Pad](https://github.com/szimek/signature_pad)** | [![GitHub stars](https://img.shields.io/github/stars/szimek/signature_pad?style=social&color=white)](https://github.com/szimek/signature_pad/stargazers) | MIT | HTML5 canvas-based smooth signature drawing library working across desktop and mobile browsers. |
+| **[pdf-lib](https://github.com/Hopding/pdf-lib)** | [![GitHub stars](https://img.shields.io/github/stars/Hopding/pdf-lib?style=social&color=white)](https://github.com/Hopding/pdf-lib/stargazers) | MIT | Create and modify PDF documents in JavaScript/TypeScript, including filling form fields and embedding signature visuals. |
+| **[OpenSign](https://github.com/OpenSignLabs/OpenSign)** | [![GitHub stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=social&color=white)](https://github.com/OpenSignLabs/OpenSign/stargazers) | AGPL-3.0 | Free & open-source e-signature platform featuring sequential signing, completion certificates, and self-hosting. |
+| **[PDF Editor](https://github.com/ShizukuIchi/pdf-editor)** | [![GitHub stars](https://img.shields.io/github/stars/ShizukuIchi/pdf-editor?style=social&color=white)](https://github.com/ShizukuIchi/pdf-editor/stargazers) | MIT | Client-side web application to annotate, edit, and add custom signature images to PDFs in the browser. |
+| **[Digital Signature Service (DSS)](https://github.com/esig/dss)** | [![GitHub stars](https://img.shields.io/github/stars/esig/dss?style=social&color=white)](https://github.com/esig/dss/stargazers) | LGPL-2.1 | Official European Commission open-source library for creating, extending, and validating eIDAS compliant signatures. |
+| **[node-signpdf](https://github.com/vbuch/node-signpdf)** | [![GitHub stars](https://img.shields.io/github/stars/vbuch/node-signpdf?style=social&color=white)](https://github.com/vbuch/node-signpdf/stargazers) | MIT | Simple Node.js module to inject cryptographic PAdES digital signatures into PDF buffers. |
+| **[LibreSign](https://github.com/LibreSign/libresign)** | [![GitHub stars](https://img.shields.io/github/stars/LibreSign/libresign?style=social&color=white)](https://github.com/LibreSign/libresign/stargazers) | AGPL-3.0 | Nextcloud native electronic signature application for signing documents stored directly inside Nextcloud. |
+
+---
+
+## ⚖️ Key Features & Legal Compliance Framework
+
+When choosing or implementing an electronic signature solution, verify compliance with regional and global legal standards:
+
+- **📜 ESIGN Act & UETA (USA)**: Enforces legal validity of electronic signatures and records for commercial transactions across the United States.
+- **🇪🇺 eIDAS Regulation (EU)**: Defines Simple Electronic Signatures (SES), Advanced Electronic Signatures (AdES), and Qualified Electronic Signatures (QES) backed by Qualified Certificates.
+- **🛡️ Audit Trail & Evidence Summary**: Captures signer IP addresses, email verification, timestamps, document hashes, and certificate chain details.
+- **🔒 Cryptographic Security**: Uses Public Key Infrastructure (PKI), SHA-256 hashing, and X.509 digital certificates to detect document tampering after signature placement.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help us keep this directory complete and up to date:
+
+1. 🍴 **Fork** the repository.
+2. ✍️ **Add or Update** entries in `README.md` keeping alphabetical or table sorting rules intact.
+3. 📝 **Ensure Data Accuracy**: Include platform name, accurate URL, specific pricing details, and open-source license info.
+4. 🚀 **Submit a Pull Request** with a brief summary of additions.
+
+Refer to the main catalog curator list at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-E-Signature&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-E-Signature&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsor
+
+Thank you for visiting and using **Awesome-E-Signature**! 🌟
+
+If you find this curated list helpful, please consider supporting the project:
+- ⭐ **Star** this repository to show your appreciation!
+- 🔀 **Fork** and share it with your colleagues and developer community.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is a community-curated information directory and does not constitute legal advice. Electronic signature requirements vary significantly by jurisdiction and document classification (e.g., real estate deeds vs. commercial contracts). Always consult qualified legal counsel to ensure compliance with relevant local regulations.
